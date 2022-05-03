@@ -1,0 +1,22 @@
+user_name = input('What is your name? ')
+print(f'Thanks {user_name}!')
+user_age = int(input('How old are you? '))
+next_year_age = user_age + 1
+next_year_age_str = str(next_year_age)
+print('Perfect. On your next birthday, you will be ' + next_year_age_str)
+
+
+cartons = int(input('How many cartons do you have? '))
+eggs = cartons * 12
+print(f'You have {eggs} eggs.')
+
+
+
+cookies = int(input('How many cookies do you have? '))
+people = int(input('How many people are there? '))
+quantity_for_each = float(cookies / people)
+quantity_str = str(quantity_for_each)
+print(f'Each person gets {quantity_str} cookies.')
+
+
+
