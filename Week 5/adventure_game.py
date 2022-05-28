@@ -52,7 +52,7 @@ if first_level.lower() == "grab":
         third_level_grab_jump = input("You jump out of the airplane with your parachute on. However, as you fall rapidly and see the earth getting closer and closer, you start to panic. Your parachute is stuck and you immediately start to regret your decision to jump. However, you are able to give one last hard tug on your ripcord, and the parachute opens. You are more or less able to steer, and you have two spots you think look promising to land on. It is a heavily wooded area. You can either aim for a RIVERBANK or the foot of a MOUNTAIN. ")
         if third_level_grab_jump.lower() == "riverbank":
             print("You end up landing on the riverbank, but a heavy wind gust pulls you into the river before you can get your parachute off. You are able to free yourself, and then get a much needed drink from the river. You are soaking wet and dont get any sleep that night, but you get rescued the next day and get to safety.")
-        elif third_level_scream_scream_.lower() == "mountain":
+        elif third_level_grab_jump.lower() == "mountain":
             print("You aim for the perfect spot at the foot of the mountain but a huge wind gust pushes you off course and you slam into the mountainside. This knocks you out for a few days, during which a mountain lion finds you and eats you. Game over. ")
         else:
             input("Not a valid option. Please choose RIVERBANK, or MOUNTAIN")
