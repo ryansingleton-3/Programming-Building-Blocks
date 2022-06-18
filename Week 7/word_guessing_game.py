@@ -4,7 +4,7 @@ turn = 0
 total_letters = len(secret_word)
 hint = '_ ' * total_letters
 print(f'Your hint is {hint}.')
-guess=None
+guess = None
 while guess != secret_word.lower():
     guess = input("\nWhat is your guess? ")
     print("Your hint is: ")
