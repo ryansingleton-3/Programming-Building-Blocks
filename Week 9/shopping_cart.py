@@ -7,7 +7,6 @@ new_product = ''
 
 
 print()
-print("Please select one of the following:")
 
 # print("1. Add Item")
 # print("2. View Cart")
